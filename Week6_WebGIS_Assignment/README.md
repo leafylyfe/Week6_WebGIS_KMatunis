@@ -1,6 +1,6 @@
-# Week 6 — Web GIS Assignment (ArcGIS JavaScript API)
+# Week 6 — Web GIS Assignment 
 
-This repository contains an ArcGIS JS (4.33) web app implementing the Week 6 requirements:
+This repository contains an ArcGIS web app implementing the Week 6 requirements:
 - 3D **SceneView** with world elevation
 - Custom **myStuff** object (JSON) with multiple personal places
 - Customized **symbology** and **popup** formatting
@@ -17,11 +17,6 @@ This repository contains an ArcGIS JS (4.33) web app implementing the Week 6 req
 ## How to Run Locally
 Use a local web server (for example, VS Code Live Server). Open `index.html`.  
 The app will load a 3D globe with your places, clustering, search, and zoom behavior.
-
-## GitHub Pages (Submission)
-1. Push this repo to GitHub (public).
-2. Enable **GitHub Pages** in repo settings → Pages → Source: `main` branch, root.
-3. Submit the **repository link** and the **live URL**.
 
 ## Notes
 - The elevation service is loaded via **HTTPS** to avoid mixed-content blocking.
